@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SimpleSQLV2</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Daten eintragen und löschen</string>
+    <string name="second_fragment_label">Daten gefiltert abrufen</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="btn">Hinzufügen</string>
+    <string name="txt1">Ort</string>
+    <string name="txt2">Temperatur</string>
+    <string name="txt3">Luftfeuchte</string>
+    <string name="txt4">Zeit DD.MM.YYYY HH:MM</string>
+    <string name="eingabefehler">Alle Felder ausfüllen</string>
+    <string name="gespeichert">gespeichert</string>
+
+    <string name="menu_enter">Daten eintragen</string>
+    <string name="menu_search">Daten filtern</string>
+    <string name="filterLoc">Filter nach Ort</string>
+    <string name="filterTemp">Filter Temp >= </string>
+    <string name="filterDate">Filter Datum</string>
+    <string name="filterHot">Filter wärmste top</string>
+    <string name="filterDelete">Lösche ID </string>
+    <string name="filterReset">Filter zurücksetzen</string>
+    <string name="hintLoc">Ort</string>
+    <string name="hintTemp">Temp</string>
+    <string name="hintDate">TT.MM.YYYY</string>
+    <string name="hintDelete">ID</string>
+    <string name="hintHot">Anzahl Top X</string>
+
+    <string name="result">result</string>
+    <string name="no_match">Keine Übereinstimmung gefunden.</string>
+    <string name="empty_db">Leere Datenbank/nAchte auf korrekte Schreibweise und ob Zahlen vorhanden sind!</string>
+    <string name="choose_radio">Bitte wähle einen Button aus!</string>
+    <string name="delete_success">Löschen erfolgreich</string>
+    <string name="deleting_info">Wähle einen Eintrag aus, um ihn zu löschen.</string>
+    <string name="value">value</string>
+
+    <string name="fields_empty">Bitte fülle alle Felder aus!</string>
+    <string name="spelling_remind">Achte auf korrekte Schreibweise und ob Zahlen vorhanden sind!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.simplesqlv2.MainActivity">
+    <item
+        android:id="@+id/FirstFragment"
+        android:orderInCategory="100"
+        android:title="@string/menu_enter"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/SecondFragment"
+        android:orderInCategory="100"
+        android:title="@string/menu_search"
+        app:showAsAction="never" />
+</menu>
