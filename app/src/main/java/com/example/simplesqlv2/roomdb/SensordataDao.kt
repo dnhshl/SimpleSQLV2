@@ -42,24 +42,4 @@ interface SensordataDao {
     //Die Top X mit den höchsten Temperaturen
     @Query("SELECT * FROM TABLE_SENSORDATA ORDER BY TEMPERATURE DESC LIMIT :value")
     suspend fun getSensordataFilterByHottest(value: Int): List<Sensordata>
-
-
-/*
-    //Alle Records mit einer Temperatur >= valu
-    @Query(//Ergänzen Sie)
-        fun findTemp(value: Int): List<Sensordata>
-
-        //Alle Records mit spezifischem Datum
-        @Query(//Ergänzen Sie)
-            fun findDate(value: String): List<Sensordata>
-
-            //Die Top 5 Einträge mit den höchsten Temperaturen
-            @Query(//Ergänzen Sie)
-                fun findHottest(): List<Sensordata>
-
-                // Anzahl von Messungen pro Raum  (optional)
-                @Query("SELECT COUNT(Room) AS mCount, Room AS mRoom FROM TABLE_WEATHER GROUP BY Room")
-                fun getRoomCount(): List<RoomCount>
-*/
-    //Sie können beliebige weitere Queries ergänzen.
 }
